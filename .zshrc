@@ -2,7 +2,7 @@
 ZSH_DISABLE_COMPFIX=true
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/kamstut/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set zsh theme
 ZSH_THEME="honukai"
