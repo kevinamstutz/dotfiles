@@ -10,6 +10,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
+" color theme
+Plug 'NLKNguyen/papercolor-theme'
+
 call plug#end()
 
 " shortcut :F and :B for files and buffers
@@ -18,4 +21,8 @@ command! -bang B call fzf#vim#buffers(<bang>0)
 
 " Control-P for :F
 nnoremap <C-p> :F<Cr>
-nnoremap <C-b> :B<Cr>
+
+" Set color theme
+set t_Co=256
+set background=dark
+colorscheme PaperColor

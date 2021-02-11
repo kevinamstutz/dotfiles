@@ -63,5 +63,5 @@ fi
 alias config='/usr/bin/git --git-dir=/Users/kamstut/.cfg/ --work-tree=/Users/kamstut'
 
 # Use ripgrep in fzf
-export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden --follow'
+export FZF_DEFAULT_COMMAND='rg --files --hidden --follow -g "!.git/"'
 export FZF_DEFAULT_OPTS='--height 96% --reverse --preview "cat {}"'
