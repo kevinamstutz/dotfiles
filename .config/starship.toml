@@ -1,0 +1,83 @@
+[aws]
+symbol = "☁️  "
+
+[buf]
+symbol = "🐃 "
+
+[c]
+symbol = "C "
+
+[conda]
+symbol = "🅒  "
+
+[dart]
+symbol = "🎯 "
+
+[directory]
+read_only = " "
+truncation_length = 100
+truncate_to_repo = false
+style = "yellow"
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[username]
+show_always = true
+format = "[#](bold blue) [$user]($style) in "
+style_user = "bold cyan"
+
+[hostname]
+ssh_only = false
+trim_at = ""
+ssh_symbol = ""
+style = "bold green"
+
+[docker_context]
+symbol = "🐳 "
+
+[elixir]
+symbol = "💧 "
+
+[elm]
+symbol = "🌳 "
+
+[git_branch]
+symbol = " "
+
+[golang]
+symbol = "🐹 "
+
+[haskell]
+symbol = "λ "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = "☕ "
+
+[julia]
+symbol = "ஃ "
+
+[memory_usage]
+symbol = "🐏 "
+
+[nim]
+symbol = "👑 "
+
+[nix_shell]
+symbol = "❄️ "
+
+[nodejs]
+symbol = ""
+
+[package]
+symbol = "📦 "
+
+[python]
+symbol = "🐍 "
+
+[spack]
+symbol = "🅢 "
+
+[rust]
+symbol = "🦀 "

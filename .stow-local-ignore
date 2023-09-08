@@ -1,0 +1,4 @@
+\.git
+\.gitmodules
+\.gitignore
+\.config/fish/fish_variables
