@@ -1,2 +1,2 @@
-export SHELL=$HOME/.local/bin/$(uname)/fish
+export SHELL=$HOME/.local/$(uname)/bin/fish
 exec "$SHELL" -l

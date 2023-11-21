@@ -2,10 +2,10 @@ switch (uname)
 case Darwin
     if status --is-login
         fish_add_path /opt/homebrew/bin
-        fish_add_path $HOME/.local/bin/darwin
+        fish_add_path $HOME/.local/Darwin/bin
     end
     if status --is-interactive
-        if test -e $HOME/.local/bin/darwin/starship
+        if test -e $HOME/.local/Darwin/bin/starship
             starship init fish | source
         end
         if test -e /opt/homebrew/bin/brew

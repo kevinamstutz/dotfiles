@@ -1,14 +1,14 @@
 switch (uname)
 case Linux
     if status --is-login
-        fish_add_path $HOME/.local/bin/linux
+        fish_add_path $HOME/.local/Linux/bin
     end
     if status --is-interactive
-        if test -e $HOME/.local/bin/linux/starship
+        if test -e $HOME/.local/Linux/bin/starship
             starship init fish | source
         end
-        if test -e /etc/profile.d/modules.sh
-            source /etc/profile.d/modules.sh
-        end
+        #if test -e /etc/profile.d/modules.sh
+        #    source /etc/profile.d/modules.sh
+        #end
     end
 end
