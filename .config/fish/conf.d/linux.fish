@@ -6,7 +6,7 @@ case Linux
     end
     if status --is-interactive
         if test -e $HOME/.local/Linux/bin/starship
-            starship init fish | source
+            $HOME/.local/Linux/bin/starship init fish | source
         end
         #if test -e /etc/profile.d/modules.sh
         #    source /etc/profile.d/modules.sh
