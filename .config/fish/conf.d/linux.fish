@@ -11,5 +11,9 @@ case Linux
 	    if test -e $HOME/.ghcup/bin
 	        fish_add_path $HOME/.ghcup/bin
 	    end
+        if echo (hostname | cut -d. -f2) -eq 'anvil'
+            fish_add_path /anvil/projects/tdm/bin/
+            set -gx SINGULARITY_CACHEDIR $SCRATCH/.singularity/cache
+	    end
     end
 end
