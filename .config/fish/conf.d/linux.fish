@@ -8,8 +8,5 @@ case Linux
         if test -e $HOME/.local/Linux/bin/starship
             $HOME/.local/Linux/bin/starship init fish | source
         end
-        #if test -e /etc/profile.d/modules.sh
-        #    source /etc/profile.d/modules.sh
-        #end
     end
 end
