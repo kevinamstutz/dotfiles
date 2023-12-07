@@ -8,6 +8,9 @@ case Linux
         if test -e $HOME/.local/Linux/bin/starship
             $HOME/.local/Linux/bin/starship init fish | source
         end
+	    #if test -e $HOME/.local/Linux/bin/atuin
+	    #   $HOME/.local/Linux/bin/atuin init fish | source
+	    #end
 	    if test -e $HOME/.ghcup/bin
 	        fish_add_path $HOME/.ghcup/bin
 	    end
