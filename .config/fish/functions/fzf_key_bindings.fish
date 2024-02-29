@@ -1,0 +1,1 @@
+/home/x-kamstut/.fzf/shell/key-bindings.fish

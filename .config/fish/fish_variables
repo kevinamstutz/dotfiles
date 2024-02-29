@@ -29,4 +29,4 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow\x1e\x2di
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/opt/homebrew/opt/postgresql\x4015/bin\x1e/Users/kamstut/\x2elocal/Darwin/bin\x1e/anvil/projects/tdm/bin\x1e/home/x\x2dkamstut/\x2eghcup/bin\x1e/home/x\x2dkamstut/\x2ecargo/bin\x1e/home/x\x2dkamstut/\x2elocal/Linux/bin\x1e/Users/kamstut/\x2elocal/bin/darwin\x1e/opt/homebrew/bin
+SETUVAR fish_user_paths:/opt/homebrew/opt/postgresql\x4015/bin\x1e/Users/kamstut/\x2elocal/Darwin/bin\x1e/anvil/projects/tdm/bin\x1e/home/x\x2dkamstut/\x2eghcup/bin\x1e/home/x\x2dkamstut/\x2ecargo/bin\x1e/home/x\x2dkamstut/\x2elocal/Linux/bin\x1e/Users/kamstut/\x2elocal/bin/darwin\x1e/opt/homebrew/bin\x1e/home/x\x2dkamstut/\x2efzf/bin
