@@ -6,6 +6,7 @@ endif
 
 set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 set relativenumber
+set nofoldenable
 
 call plug#begin()
 
@@ -43,6 +44,9 @@ Plug 'junegunn/fzf.vim'
 
 " color theme
 Plug 'NLKNguyen/papercolor-theme'
+
+" Skim
+Plug 'lotabout/skim', { 'dir': '~/.skim', 'do': './install' }
 
 call plug#end()
 
