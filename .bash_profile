@@ -15,6 +15,7 @@ export PATH=$PATH:$HOME/.cargo/bin
 if [[ $(hostname | cut -f2 -d.) == 'anvil' ]]; then
     export APPTAINER_CACHEDIR="$SCRATCH/.apptainer/cache"
     export SINGULARITY_CACHEDIR="$SCRATCH/.singularity/cache"
+    export GIT_EXTERNAL_DIFF="$HOME/.cargo/bin/difft git log -p --ext-diff"
 fi
 
 # KEEP AT END SO PATH IS UPDATED FIRST. Read in $HOME/.bashrc as well
